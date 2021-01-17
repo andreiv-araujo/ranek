@@ -1,0 +1,29 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.contato img {
+  width: 200px;
+  height: 400px;
+}
+
+.dados h1 {
+  margin-bottom: 15px;
+}
+
+.dados li {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+.dados li:before {
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  height: 2px;
+  background: #ddd;
+}
